@@ -1,0 +1,35 @@
+<header>
+  <app-navigation></app-navigation>
+</header>
+<body>
+<div class="login-container">
+  
+  <div class="row">
+    
+    <div class="col-6">
+      <!-- Left column content goes here -->
+      <img src="https://th.bing.com/th/id/R.c072fbd7cd71857882f33a4306cfa8fa?rik=lwKsfkeEPCna7A&riu=http%3a%2f%2fwww.teceze.com%2fsites%2fdefault%2ffiles%2f2020-11%2fit_service.png&ehk=cV8tYo5P66mw4kE8OE2Vp4xqeMNVjRCu0%2bXoEJDDEXs%3d&risl=&pid=ImgRaw&r=0" alt="Image" class="left-image">
+    </div>
+
+    <div class="col-6">
+      <!-- Right column content goes here -->
+    <div class="login-container1">
+    <h2>Login</h2>
+    <form class="login-form">
+      <label>Email:</label>
+      <input type="email" [(ngModel)]="email" placeholder="Enter your email">
+  
+      <label>Password:</label>
+      <input type="password" [(ngModel)]="password" placeholder="Enter your password">
+  
+      <button class="login-button" (click)="login()">Login</button>
+    </form>
+  
+    <p>Don't have an account? <a class="signup-link" routerLink="/signup">Sign Up</a></p>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+
+  
